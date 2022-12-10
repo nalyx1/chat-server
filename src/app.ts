@@ -31,8 +31,6 @@ class App {
       res.send("Server UP!");
     });
   }
-
-  websocket() {}
 }
 
 export default new App();
