@@ -12,7 +12,7 @@ class App {
     this.httpServer = http.createServer(this.server);
     this.io = new Server(this.httpServer, {
       cors: {
-        origin: "http://localhost:3000",
+        origin: "*",
         credentials: true,
       },
     });
