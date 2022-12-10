@@ -129,6 +129,6 @@ app.io.on("connection", async (socket) => {
   });
 });
 
-app.httpServer.listen(process.env.PORT || 5000, Number(process.env.HOST), () => {
+app.httpServer.listen(process.env.PORT || 5000, () => {
   console.log("Server listening");
 });
